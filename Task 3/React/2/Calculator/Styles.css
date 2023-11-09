@@ -1,0 +1,151 @@
+body{
+    background-color: rgb(213, 146, 69);
+    color:white;
+    text-align: center;
+    margin: 7% 30%;
+}
+
+hr
+{
+    border-width: 3px;
+}
+
+.hrheight
+{
+    margin-top: 167px;
+}
+
+i
+{
+    color:rgb(226, 159, 35);
+}
+
+#body
+{
+    padding-top: 30px ;
+    background-color: rgb(60, 60, 60);
+    border-radius: 10%;
+}
+
+.btn
+{
+    box-shadow: 5px 5px 10px rgb(46, 46, 46);
+    color:grey;
+    padding: 5px;
+    width: 80px;
+    height: 80px;
+}
+
+.btn:focus
+{
+    box-shadow: 5px 5px 10px rgb(46, 46, 46);
+    color:grey;
+    padding: 5px;
+    width: 80px;
+    height: 80px;
+    outline:none;
+    border:none;
+}
+
+.AC
+{
+    /* width:190px; */
+    color:rgb(226, 159, 35);
+}
+
+.AC:focus
+{
+    /* width:190px; */
+    color:rgb(226, 159, 35);
+}
+
+.btn:hover
+{
+    background-color: rgb(53,53,53);
+    border:1px white solid;
+    color:white;
+}
+
+.AC:hover
+{
+    /* width:190px; */
+    color:rgb(226, 159, 35);
+    border: 1px solid rgb(226, 159, 35);
+}
+
+.custom,.custom1,.custom2
+{
+    margin: 3px 15px;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.custom1
+{
+    position: relative;
+    right:15px;
+}
+
+.custom2
+{
+    position: relative;
+    right: 15px;
+}
+
+#display1
+{
+    background-color: rgb(169, 169, 169);
+}
+
+.equal
+{
+    box-shadow: 5px 5px 10px rgb(46, 46, 46);
+    background-color: orange;
+    width:190px;
+    color:white;
+    font-weight: bold;
+}
+
+.equal:hover
+{
+    border-color: orange;
+    background-color: rgb(255, 187, 61);
+}
+
+.equal:focus
+{
+    box-shadow: 5px 5px 10px rgb(46, 46, 46);
+    background-color: orange;
+    width:190px;
+    color:white;
+}
+
+.equalIcon
+{
+    color:white;
+}
+
+
+.para,.para1
+{
+    text-align: right;
+    padding-right: 50px;
+}
+
+.para
+{
+    color:grey;
+    font-size:1.3rem;
+}
+
+.para1
+{
+    color:white;
+    font-size:5rem;
+    margin-bottom:-10px;
+}
+
+.sign:hover
+{
+    border: 1px solid rgb(226, 159, 35);
+}

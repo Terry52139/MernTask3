@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Calculator</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <!-- Bootstrap -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+  
+        <!-- Font Awesome -->
+        <script src="https://kit.fontawesome.com/2582a48ab6.js" crossorigin="anonymous"></script>
+
+        <!-- CSS -->
+        <link rel="stylesheet" href="Styles.css">
+    </head>
+    <body>
+        <section id="body">
+          <div class="display1">
+            <p class="para1"></p> <!-- Using js and event.key, change the text to show the number pressed here -->
+            <p class="para"></p>
+        </div>
+          <hr class="hrheight">
+              <div class="container">
+                <div class="row justify-content-end d-inline-flex">
+                  <button class="btn btn-md custom AC" id="reset">AC</button>
+                  <button class="btn btn-md custom back" id="backspace"><i class="fa-solid fa-delete-left"></i></button>
+                  <button class="btn btn-md custom sign" id="%"><i class="fa-solid fa-percent"></i></button>
+                  <button class="btn btn-md custom sign" id="÷"><i class="fa-solid fa-divide"></i></button>
+                </div>
+              </div>
+              <br>
+              <div class="container">
+                <div class="row justify-content-end d-inline-flex">
+                  <button class="btn btn-md custom" id="7">7</button>
+                  <button class="btn btn-md custom" id="8">8</button>
+                  <button class="btn btn-md custom" id="9">9</button>
+                  <button class="btn btn-md custom sign" id="x"><i class="fa-solid fa-xmark"></i></button>
+                </div>
+              </div>
+              <br>
+              <div class="container">
+                <div class="row justify-content-end d-inline-flex">
+                  <button class="btn btn-md custom" id="4">4</button>
+                  <button class="btn btn-md custom" id="5">5</button>
+                  <button class="btn btn-md custom" id="6">6</button>
+                  <button class="btn btn-md custom sign" id="-"><i class="fa-solid fa-minus"></i></button>
+                </div>
+              </div>
+              <br>
+              <div class="container">
+                <div class="row justify-content-end d-inline-flex">
+                  <button class="btn btn-md custom" id="1">1</button>
+                  <button class="btn btn-md custom" id="2">2</button>
+                  <button class="btn btn-md custom" id="3">3</button>
+                  <button class="btn btn-md custom sign" id="+"><i class="fa-solid fa-plus"></i></button>
+                </div>
+              </div>
+              <br>
+              <div class="container">
+                <div class="row justify-content-end d-inline-flex">
+                  <button class="btn btn-md custom1" id="0">0</button>
+                  <button class="btn btn-md custom2" id=".">.</button>
+                  <button class="btn btn-md equal" id="equals"><i class="fa-solid fa-equals equalIcon"></i></button>
+                </div>
+              </div>
+              <br>
+
+                
+        </section>
+        <script src="https://code.jquery.com/jquery-3.6.1.js" integrity="sha256-3zlB5s2uwoUzrXK3BT7AX3FyvojsraNFxCc2vC/7pNI=" crossorigin="anonymous"></script>    
+        <script src="Index.js"></script>
+    </body>
+</html>
+
+
